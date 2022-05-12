@@ -1,38 +1,710 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.container {
+  /* border: 10px solid purple; */
+  display: grid;
+  /* background: rgb(235, 154, 255); */
+  /* margin: 2vh; */
+}
+
+
+
+.Home-container {
+  display: grid;
+}
+
+.Home-container img {
+  width: 100%;
+}
+
+.overview {
+  /* border: 2px solid red; */
+  padding: 10px;
+  display: flex;
+}
+
+.overview img {
+  /* border: 2px solid rgb(152, 0, 0); */
+  width: 100vh;
+}
+
+.overview p {
+  font-size: 1.4rem;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+
+.cards-container {
+  /* background: rgb(146, 141, 141); */
+  background: rgb(0, 40, 45);
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  padding: 4vh 1vh;
+  margin-top: -10px;
+  justify-content: center;
+  justify-self: center;
+  /* border: 5px solid greenyellow; */
+}
+
+.images img {
+  width: 100%;
+}
+
+.cards-item-container {
+  border: 3px solid rgb(48, 130, 95);
+  margin: 30px 15px;
+  justify-self: center;
+  width: 60vh;
+  border-top-left-radius: 25px;
+  color: white;
+  padding: 10px;
+  font-size: 1.3rem;
+  cursor: grab;
+  justify-content: center;
+  justify-self: center;
+  box-shadow: 10px 10px 10px rgb(4, 77, 54);
+  background: #000;
+
+}
+
+.cards-item-container:hover {
+  box-shadow: 10px 10px 10px rgb(9, 52, 44);
+}
+
+.cards-item-container img {
+  height: 60vh;
+  border-top-left-radius: 25px;
+}
+
+.cards-item-container button {
+  width: 100%;
+  height: 5vh;
+  font-size: 1.5rem;
+  border-radius: 15px 0px;
+  cursor: pointer;
+}
+
+.cards-item-container button:hover {
+  background: rgb(177, 177, 177);
+}
+.contact-container{
+  background: rgb(229, 229, 229);
+  height: 100rem;
+}
+/* .contact-container::before {
+  content: "";
+  background: url(./img/oskars-sylwan-Xjg8t1KO26o-unsplash.jpg) no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  margin: 0;
+  opacity: 0.8;
+  z-index: -1;
+} */
+
+.contact-container h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .contact-container{
+  border: 3px solid greenyellow;
+  padding: 15px 20px;
+  justify-self: center;
+  background: rgb(235, 154, 255);
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  margin: 1vh 1vh;
+  width: 97%;
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form {
+  /* border: 3px solid red; */
+  justify-self: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* text-align: center; */
+}
+
+.form #suggestion {
+  height: 15vh;
+  width: 120vh;
+  resize: none;
+  padding: 10px;
+  margin: 10px 12px;
+}
+
+.form label {
+  font-size: 1.2rem;
+  margin: 10px 12px;
+}
+
+.form input {
+  width: 120vh;
+  height: 2vh;
+  padding: 10px;
+  margin: 10px 12px;
+}
+
+.form button {
+  width: 30vh;
+  margin: 8px 15px;
+  height: 5vh;
+  cursor: pointer;
+  background: none;
+  border-color: rgb(83, 43, 43);
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+}
+
+.sponsor-container {
+  background: rgb(203, 203, 203);
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.sponsor {
+  display: flex;
+  /* border: 3px solid firebrick; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.sponsor-container img {
+  height: 20vh;
+  margin: 10px auto;
+  justify-self: center;
+}
+
+
+.about-container {
+  /* border: 3px solid olivedrab; */
+  background: rgb(203, 203, 203);
+  color: rgb(0, 0, 0);
+  /* padding-bottom: 20px; */
+}
+
+.about {
+  padding: 20px 45px;
+  font-size: 1.3rem;
+}
+
+
+/* Footer */
+.foot {
+  /* border: 3px solid red; */
+  /* height: 10vh; */
+  padding: 10px 10px;
+  background: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.1rem;
+  color: rgb(0, 0, 0);
+}
+
+.foot a {
+  text-decoration: none;
+  margin: 2px 15px;
+  color: rgb(0, 64, 106);
+}
+
+.left {
+  /* border: 4px solid rgb(0, 0, 0); */
+  display: flex;
+  flex-direction: row;
+  margin: 5rem 10rem;
+}
+
+.left img {
+  /* border: 2px solid rgb(0, 255, 145); */
+  width: 400px;
+  margin: 10px 6px;
+}
+
+.left p {
+  /* border: 2px solid rgb(25, 50, 0); */
+  font-size: 1.5rem;
+  margin: auto 2rem;
+}
+
+.right {
+  /* border: 2px solid lawngreen; */
+  flex-direction: row-reverse;
+  display: flex;
+  margin: 5rem 10rem;
+}
+
+.right img {
+  /* border: 2px solid rgb(0, 255, 145); */
+  width: 400px;
+  margin: 10px 6px;
+}
+
+.right p {
+  /* border: 2px solid rgb(25, 50, 0); */
+  font-size: 1.5rem;
+  margin: auto 2rem;
+}
+
+/* .our-det{
+  border: 3px solid yellow;
+  font-size: 1.4rem ;
+  padding: 15px 20px;
+  background: rgb(174, 174, 174);
+  color: #172941;
+} */
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.logIn-container {
+  background: rgb(229, 229, 229);
+  height: 1000px;
+}
+
+.logIn {
+  /* border: 2px solid red; */
+  padding: 15px 10px;
+  /* display: flex;
+  justify-content: center; */
+  display: grid;
+}
+
+.logIn form {
+  /* background: rgb(148, 144, 144); */
+  font-size: 1.5rem;
+  justify-self: center;
+  padding: 10px;
+}
+
+.logIn input {
+  width: 50vw;
+  padding: 4px 6px;
+  font-size: 1.3rem;
+  background: none;
+}
+
+.logIn button {
+  color: white;
+  background: none;
+  border: 1px solid black;
+  font-size: 1.4rem;
+  width: 15vh;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* .signUp-container::before {
+  content: "";
+  background: url(./img/oskars-sylwan-Xjg8t1KO26o-unsplash.jpg) no-repeat center center;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  position: absolute;
+  margin: 0;
+  opacity: 0.8;
+  z-index: -1;
+} */
+
+.signUp-container {
+  background: rgb(229, 229, 229);
+  height: 1000px;
+}
+
+.signUp {
+  /* border: 2px solid red; */
+  padding: 15px 10px;
+  /* display: flex;
+  justify-content: center; */
+  display: grid;
+}
+
+.signUp form {
+  /* background: rgb(148, 144, 144); */
+  font-size: 1.5rem;
+  justify-self: center;
+  padding: 10px;
+}
+
+.signUp input {
+  width: 50vw;
+  padding: 4px 6px;
+  font-size: 1.3rem;
+  background: none;
+}
+
+.signUp button {
+  color: white;
+  background: none;
+  border: 1px solid black;
+  font-size: 1.4rem;
+  width: 15vh;
+  cursor: pointer;
+
+  margin-top: 15px;
+}
+
+.contactUs {
+  padding: 0.9rem 0;
+}
+
+.det {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  margin: 3rem 0px;
+}
+
+.links a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin: 5px 30px;
+  color: white;
+
+}
+
+.links img {
+  width: 3vh;
+  margin: 5px;
+  margin-top: -1px;
+  /* background: white; */
+  /* color: white; */
+}
+
+
+@media (max-width:830px) {
+
+  .sponsor-container img {
+    height: 10vh;
+    margin: 10px auto;
+    justify-self: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .left,
+  .right {
+    flex-direction: column;
+  }
+
+  .left img {
+    width: 400px;
+
+  }
+
+  .det {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .l-list li ul a {
+    display: flex;
+    flex-direction: row;
+    color: #000;
+  }
+
+  .r-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-container {
+    background: rgb(229, 229, 229);
+  }
+
+  .contact-container input {
+    background: rgb(229, 229, 229);
+    width: 600px;
+  }
+
+  .form #suggestion {
+    width: 600px;
+    height: 100px;
+    background: rgb(229, 229, 229);
+  }
+
+
+
+  .signUp-container::before {
+    content: "";
+    /* background: #000; */
+    /* background: url(./img/oskars-sylwan-Xjg8t1KO26o-unsplash.jpg) no-repeat center center; */
+    /* width: 100%;
+    height: 100%; */
+    /* background-size: 100%; */
+    /* position: absolute;
+    margin: 0;
+    opacity: 0.8;
+    z-index: -1; */
+  }
+}
+
+
+@media (max-width:436px) {
+
+  .left img {
+    width: 320px;
+
+  }
+
+  .right img {
+    width: 320px;
+
+  }
+
+  .sponsor-container img {
+    height: 40px;
+    margin: 8px auto;
+    justify-self: center;
+  }
+
+  .contact-container {
+    background: rgb(229, 229, 229);
+  }
+
+}
+
+@media (max-width:339px) {
+  .left img {
+    width: 200px;
+  }
+
+  .right img {
+    width: 200px;
+  }
+
+  .det {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:444px) {
+  .cards-item-container {
+    width: 360px;
+  }
+
+  .cards-item-container img {
+    width: 350px;
+  }
+}
+@media (max-width:384px) {
+  .cards-item-container {
+    width: 300px;
+  }
+
+  .cards-item-container img {
+    width: 290px;
+  }
+}
+
+@media (max-width:334px) {
+  .cards-item-container {
+    width: 250px;
+  }
+
+  .cards-item-container img {
+    width: 255px;
+  }
+}
+
+@media (max-width:300px) {
+  .cards-item-container {
+    background: rgb(158, 158, 158);
+    width: 235px;
+  }
+
+  .cards-item-container img {
+    background: rgb(166, 166, 166);
+    width: 235px;
+  }
+}
+
+@media (max-width:665px) {
+  .contact-container input {
+    background: rgb(229, 229, 229);
+    width: 500px;
+  }
+
+  .form #suggestion {
+    width: 500px;
+  }
+}
+
+@media (max-width:544px) {
+  .contact-container input {
+    background: rgb(229, 229, 229);
+    width: 300px;
+  }
+
+  .form #suggestion {
+    width: 300px;
+  }
+}
+
+@media (max-width:1111px) {
+  .left{
+    /* border: 1px solid rebeccapurple; */
+    margin: 2rem 5rem;
+  }
+  .left p{
+    font-size: 1.3rem;
+    margin: 1rem 1.1rem;
+    margin: auto 1px;
+    padding: 1rem 0.9rem;
+  }
+  .left img{
+    /* border: 1px solid rebeccapurple; */
+    margin: auto auto;
+  }
+  .right{
+    /* border: 1px solid rebeccapurple; */
+    margin: 2rem 5rem;
+  }
+  .right p{
+    font-size: 1.3rem;
+    margin: 1rem 1.1rem;
+    margin: auto 1px;
+    padding: 1rem 0.9rem;
+  }
+  .right img{
+    /* border: 1px solid rebeccapurple; */
+    margin: auto auto;
+  }
+}
+
+@media (max-width:590px) {
+  .left{
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin: 2rem 4.5rem;
+  }
+  .left p{
+    font-size: 1.1rem;
+    margin: 1rem 1.1rem;
+  }
+  .left img{
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 23rem;
+  }
+
+
+  .right img{
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 23rem;
+  }
+  .right p{
+
+    font-size: 1.1rem;
+    margin: 1rem 1.1rem;
+  }
+  .right{
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin: 2rem 4.5rem;
+  }
+}
+
+@media (max-width:509px) {
+  .left{
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin: 2rem 3.5rem;
+  }
+  .left p{
+    font-size: 1.1rem;
+    margin: 1rem 1rem;
+  }
+  .left img{
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 20rem;
+  }
+
+
+  .right img{
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 20rem;
+  }
+  .right p{
+    font-size: 1.1rem;
+    margin: 1rem 1rem;
+  }
+  .right{
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin: 2rem 3.5rem;
+  }
+}
+
+@media (max-width:430px) {
+  .left{
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin: 2rem 2.5rem;
+  }
+  .left p{
+    font-size: 1.1rem;
+    margin: 1rem 0.4rem;
+  }
+  .left img{
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 20rem;
+  }
+
+
+  .right img{
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 20rem;
+  }
+  .right p{
+    font-size: 1.1rem;
+    margin: 1rem 0.4rem;
+  }
+  .right{
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin: 2rem 2.5rem;
+  }
+}
+
+@media (max-width:400px) {
+  .left{
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin: 2rem 2rem;
+  }
+  .left p{
+    font-size: 1.1rem;
+    margin: 1rem 0.1rem;
+  }
+  .left img{
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 20rem;
+  }
+
+  .right{
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin: 2rem 2rem;
+  }
+  .right p{
+    font-size: 1.1rem;
+    margin: 1rem 0.1rem;
+  }
+  .right img{
+    /* border: 1px solid rgb(0, 0, 0); */
+    width: 20rem;
+  }
+}
+
+@media (max-width:400px) {
+  .left{
+    margin: 0 0.1rem;
+  }
+  .left img{
+    width: 20rem;
+  }
+  .right{
+    margin: 0 0.1rem;
+  }
+  .right img{
+    width: 20rem;
   }
 }
