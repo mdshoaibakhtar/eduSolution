@@ -1,157 +1,212 @@
+.navhead {
+    display: none;
+}
+
+.logo2 {
+    width: 2.3rem;
+    justify-self: start;
+}
+.logo {
+    width: 3rem;
+    margin: 0rem 1.1rem;
+}
 
 .nav-Container {
-    border: 3px solid rgb(0, 255, 42);
-    background: #172941;
+    background: rgb(238, 238, 238);
     display: grid;
-    grid-template-columns:5rem 2fr 1fr 2fr;
-    color: white;
-  }
-  
-  .nav-Container li {
+    grid-template-columns: 1rem 2fr 2fr;
+    height: 3rem;
+    padding: 0.5rem 0;
+}
+
+.nav-Container li {
+    margin-top: 0.4rem;
     display: flex;
     justify-content: space-around;
-  }
-  
-  .nav-Container li ul a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    font-size: 1.6rem;
-  }
-  
-  .nav-Container li ul a:hover {
-    color: rgb(88, 88, 88);
-  }
-  
-  .r-list {
-    /* border: 3px solid white; */
-    display: flex;
-    justify-content: end;
-  }
-  
-  .r-list input {
-    height: 30px;
-    margin: auto;
-    padding: 2px 8px;
-    background: rgb(20, 60, 78);
-    color: white;
-    font-size: 1.2rem;
-    border-color: rgb(0, 0, 0);
-  
-  }
-  
-  .r-list input:hover {
-    background: rgb(50, 70, 90);
-    /* cursor: pointer; */
-  }
-  
-  .r-list button {
-    height: 35px;
-    width: 70px;
-    margin: auto;
-    background: none;
-    cursor: pointer;
-    color: white;
-    border-color: rgb(0, 0, 0);
-  }
-  
-  .r-list button:hover {
-    color: rgb(99, 99, 99);
-    font-size: 0.98rem;
-  }
-.navhead{
-    border: 2px solid green;
-    height: 40px;
+}
+
+.nav-Container li ul {
+    /* margin: 0.5rem 3rem; */
+    justify-self: start;
+    margin-top: 0.2rem;
+}
+
+.nav-Container li a {
     font-size: 1.5rem;
-    display: none;
-  }
-  .navhead p{
-    margin: 5px 10px;
-  }
-  .burger{
+    text-decoration: none;
+    color: #0d0d58;
+}
+
+.nav-Container li a:hover {
+    transition: 0.3s;
+    font-size: 1.6rem;
+    color: rgb(110, 105, 35);
+}
+
+.nav-Container li ul:hover {
+    transition: 0.3s;
+    margin-top: 0.4rem;
+}
+
+.l-list {
+    /* border: 3px solid red; */
+    grid-column: 2/3;
+}
+
+.r-list {
+    /* border: 3px solid rgb(60, 0, 0); */
+    grid-column: 3/4;
+    display: flex;
+    justify-content: space-around;
+    justify-self: end;
+}
+
+.r-list button a {
+    text-decoration: none;
+    background: none;
+    color: #0d0d58;
+    font-size: 0.9rem;
+    width: 5rem;
+    margin: 0rem 0.3rem;
+}
+
+.r-list button {
+    background: none;
+    color: #0d0d58;
+    font-size: 1.03rem;
+    width: 5rem;
+    margin: 0rem 0.3rem;
+    cursor: pointer;
+}
+
+.r-list input {
+    width: 15rem;
+    margin: 0rem 0.3rem;
+    padding: 1px 1px;
+    border: 2px solid black;
+
+}
+
+.burger {
+    grid-column: 3/4;
     height: 30px;
     width: 50px;
-    background: #000;
-    position: absolute;
-    right: 10px;
-    top: 8px;
-  
-  }
-  .line{
+    background: none;
+    justify-self: end;
+    margin-top: 0.2rem;
+    cursor: pointer;
+}
+
+.line {
     height: 4px;
     width: 45px;
     margin: 2px auto;
-    background: rgb(231, 47, 47);
-  }
-  
-  .navht-zero{
-    height: 0px;
-    visibility: hidden;
-    transition: all 0.5s ease-in;
-  }
-  .opa{
-    opacity: 0;
-    visibility: hidden;
-  }
-  
-  @media (max-width:830px) {
-    .navhead{
-      background: rgb(30, 119, 88);
-      display: flex;
+    background: rgb(161, 168, 30);
+}
+
+@media(max-width:1100px) {
+    .r-list {
+        /* border: 3px solid rgb(123, 255, 0); */
+        grid-column: 3/4;
+        display: flex;
+        justify-content: space-around;
+        justify-self: end;
     }
+
+    .r-list button {
+        width: 3.8rem;
+        margin: 0rem 0.2rem;
+    }
+
+    .r-list input {
+        width: 13rem;
+        margin: 0rem 0.2rem;
+    }
+}
+
+@media(max-width:830px) {
+    .logo2{
+        display: none;
+    }
+    .navhead {
+        display: block;
+        height: 3.8rem;
+        /* border: 1px solid red; */
+        font-size: 1.6rem;
+        display: grid;
+        grid-template-columns: 5rem 2fr 2fr 1rem;
+        box-shadow: 8px 8px 8px rgb(107, 105, 105);
+        margin-bottom: -8px;
+        padding: 1rem 0px;
+    }
+
+    .navhead p {
+        grid-column: 2/3;
+        margin-top: 0.5rem;
+    }
+
+
     .nav-Container {
-      background: rgb(255, 68, 68);
-      display: flex;
-      flex-direction: column;
-      transition: all 0.5s ease-in;
+        background: rgb(252, 252, 252);
+        height: 15.6rem;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.4s ease-out;
     }
-    .l-list{
-      /* border: 2px solid rgb(0, 0, 0); */
-      width: 100vh;
-      margin: 10px auto;
-      display: flex;
-      justify-content: center;
+
+    .nav-Container li {
+        display: flex;
+        flex-direction: column;
     }
-    .r-list{
-      /* border: 2px solid white; */
-      width: 100vh;
-      margin:10px auto;
-      padding: 10px 0;
+
+    .nav-Container li a:hover {
+        transition: 0.3s;
+        color: rgb(110, 105, 35);
     }
-    .r-list input{
-      width: 240px;
+
+    .nav-Container li ul:hover {
+        transition: 0.3s;
     }
-    .r-list button{
-      margin: 5px auto;
-      width: 250px;
+
+    .l-list {
+        /* border: 3px solid rgb(0, 0, 0); */
+        display: grid;
+        justify-content: center;
     }
-  }
-  
-  @media (max-width:570px) {
-    .nav-Container {
-      background: rgb(175, 68, 68);
-      display: flex;
-      flex-direction: column;
-      transition: all 0.5s ease-in;
+
+    .l-list ul {
+        margin: 0.3rem 1rem;
     }
-    .l-list{
-      /* border: 2px solid rgb(0, 0, 0); */
-      width: 50vh;
-      margin: 10px auto;
-      display: flex;
-      justify-content: center;
+
+    .r-list {
+        /* border: 3px solid rgb(0, 132, 59); */
+        margin: 0.2rem auto;
     }
-    .r-list{
-      /* border: 2px solid white; */
-      width: 50vh;
-      margin:10px auto;
-      padding: 10px 0;
+
+    .r-list button {
+        width: 15.3rem;
+        margin: 0.2rem 0.2rem;
     }
-    .r-list input{
-      width: 240px;
+
+    .r-list input {
+        width: 15rem;
+        margin: 0.1rem 0.2rem;
     }
-    .r-list button{
-      margin: 5px auto;
-      width: 250px;
+}
+
+.hide {
+    opacity: -1;
+    height: 0;
+}
+
+.logo {
+    width: 3rem;
+    margin: 0rem 1.1rem;
+}
+
+@media (max-width:475px) {
+    .navhead p {
+        font-size: 1.1rem;
     }
-  }
+
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import Sponsor from './Sponsor'
+import './Responsive.css';
 
 export default function LogIn() {
     return (

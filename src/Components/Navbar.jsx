@@ -1,14 +1,14 @@
 import React from "react";
-import About from "./About";
-import Cards from "./Cards";
-import Contact from "./Contact";
-import Info from "./Home";
+// import About from "./About";
+// import Cards from "./Cards";
+// import Contact from "./Contact";
+// import Info from "./Home";
 import { Link } from "react-router-dom";
-import LogIn from "./LogIn";
-import SignUp from "./SignUp";
+// import LogIn from "./LogIn";
+// import SignUp from "./SignUp";
 import logo from '../img/logo.png'
 // import './Navbar.css';
-import './ResponsiveNavbar.css';
+import './Navbar.css';
 
 export default function Navbar() {
     function run() {

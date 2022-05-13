@@ -1,4 +1,5 @@
 import React from 'react'
+import './Responsive.css';
 
 let inline={
     width:"100px",height:"100px",backgroundColor:"red"

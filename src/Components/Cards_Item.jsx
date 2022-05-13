@@ -1,4 +1,5 @@
 import React from "react";
+import './Responsive.css';
 
 export default function Cards_Item(props){
     return(

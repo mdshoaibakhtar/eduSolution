@@ -4,6 +4,7 @@ import png2 from '../img/whatsa.png';
 import png3 from '../img/youi.png';
 import png4 from '../img/iphonelogo.png';
 import png5 from '../img/linkedin.png';
+import './Responsive.css';
 
 export default function Sponsor(){
     return(

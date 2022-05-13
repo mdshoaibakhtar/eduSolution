@@ -9,6 +9,7 @@ import twoimg from '../img/www.asyncdevelopers.com.jpg'
 import fourimg from '../img/www.asyncdevelopers.com (1).jpg'
 import Sponsor from "./Sponsor";
 import About from "./About";
+import './Responsive.css';
 
 export default function Cards(){
     return(

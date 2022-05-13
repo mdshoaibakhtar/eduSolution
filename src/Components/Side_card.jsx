@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react'
 import code from '../img/code.jpg';
+import './Responsive.css';
 
 export default function Side_card(){
     return(

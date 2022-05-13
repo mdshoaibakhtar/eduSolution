@@ -9,6 +9,7 @@ import threeimg from '../img/www.asyncdevelopers.com (1).jpg'
 import fourimg from '../img/www.asyncdevelopers.com.jpg'
 import Footer from "./Footer";
 import About from "./About";
+import './Responsive.css';
 
 export default function Home() {
     return (

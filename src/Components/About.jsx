@@ -7,6 +7,7 @@ import png4 from '../img/iphonelogo.png';
 import png5 from '../img/linkedin.png';
 import Footer from "./Footer";
 import Sponsor from "./Sponsor";
+import './Responsive.css';
 
 export default function About() {
     return (
