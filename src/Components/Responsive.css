@@ -34,6 +34,12 @@
     }
 }
 
+@media (max-width:970px) {
+    .sponsor img{
+        width: 12rem;
+    }
+}
+
 @media (max-width:830px) {
     .cards-item-container{
         width: 25rem;
@@ -56,7 +62,7 @@
     }
 
     .left img {
-        width: 600px;
+        width: 530px;
 
     }
 
