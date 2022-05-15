@@ -425,20 +425,20 @@
 
 @media(max-height:745px){
     .sponsor-container{
-        border: 3px solid yellowgreen;
+        /* border: 3px solid yellowgreen; */
     }
     .sponsor-container img{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 10rem;
     }
 }
 @media(max-height:1599px){
     @media(max-width:1500px) {
         .sponsor-container{
-            border: 3px solid yellowgreen;
+            /* border: 3px solid yellowgreen; */
         }
         .sponsor-container img{
-            border: 1px solid red;
+            /* border: 1px solid red; */
             width: 10rem;
         }
     
