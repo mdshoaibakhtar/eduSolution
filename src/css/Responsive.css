@@ -1,3 +1,5 @@
+
+
 @media (max-width:1111px) {
     .left {
         /* border: 3px solid rebeccapurple; */
@@ -421,3 +423,28 @@
 }
 
 
+@media(max-height:745px){
+    .sponsor-container{
+        border: 3px solid yellowgreen;
+    }
+    .sponsor-container img{
+        border: 1px solid red;
+        width: 10rem;
+    }
+}
+@media(max-height:1599px){
+    @media(max-width:1500px) {
+        .sponsor-container{
+            border: 3px solid yellowgreen;
+        }
+        .sponsor-container img{
+            border: 1px solid red;
+            width: 10rem;
+        }
+    
+        .cards-container{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

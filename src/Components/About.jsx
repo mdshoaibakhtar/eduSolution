@@ -3,11 +3,11 @@ import png from '../img/insta.png';
 import png1 from '../img/twuitter.png';
 import png2 from '../img/whatsa.png';
 import png3 from '../img/youi.png';
-import png4 from '../img/iphonelogo.png';
 import png5 from '../img/linkedin.png';
 import Footer from "./Footer";
 import Sponsor from "./Sponsor";
-import './Responsive.css';
+import '../css/Responsive.css';
+import '../css/App.css';
 
 export default function About() {
     return (

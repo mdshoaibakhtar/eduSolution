@@ -1,4 +1,4 @@
-import './App.css';
+import './css/App.css';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Cards from './Components/Cards';
@@ -14,7 +14,6 @@ import {
   Link,
   Routes
 } from "react-router-dom";
-import Check from './Components/Check';
 
 function App() {
   return (
@@ -30,7 +29,6 @@ function App() {
                   <Route exact path='/SignUp' element={<SignUp />} />
             </Routes>
         </Router>
-        {/* <Check/> */}
     </>
   );
 }

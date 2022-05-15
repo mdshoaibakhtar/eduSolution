@@ -1,7 +1,8 @@
 import React from 'react'
 import Footer from './Footer'
 import Sponsor from './Sponsor'
-import './Responsive.css';
+import '../css/Responsive.css';
+import '../css/App.css';
 
 export default function LogIn() {
     return (

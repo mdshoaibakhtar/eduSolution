@@ -8,7 +8,8 @@ import { Link } from "react-router-dom";
 // import SignUp from "./SignUp";
 import logo from '../img/logo.png'
 // import './Navbar.css';
-import './Navbar.css';
+import '../css/Navbar.css';
+import '../css/App.css';
 
 export default function Navbar() {
     function run() {

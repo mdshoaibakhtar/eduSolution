@@ -38,20 +38,22 @@
 }
 
 
+
+
+.images img {
+  width: 100%;
+}
+
 .cards-container {
   /* background: rgb(146, 141, 141); */
-  background: rgb(0, 40, 45);
+  background: rgb(0, 82, 93);
   display: grid;
-  grid-template-columns: 3fr 3fr;
+  grid-template-columns: 1fr 1fr;
   padding: 4vh 1vh;
   margin-top: -10px;
   justify-content: center;
   justify-self: center;
   /* border: 5px solid greenyellow; */
-}
-
-.images img {
-  width: 100%;
 }
 
 .cards-item-container {
@@ -68,7 +70,7 @@
   justify-self: center;
   box-shadow: 10px 10px 10px rgb(4, 77, 54);
   background: #000;
-
+  /* grid-column: 1/2; */
 }
 
 .cards-item-container:hover {
