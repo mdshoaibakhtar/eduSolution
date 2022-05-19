@@ -1,7 +1,7 @@
 import React from "react";
 // import CardsItem from "./CardsItem";
 // import Sponsor from "./Sponsor";
-import Side_card from "./SideCard";
+import SideCard from "./SideCard";
 // import code from '../img/code.jpg';
 import oneimg from '../img/Async Developers.jpg'
 // import twoimg from '../img/with asyncdevelopers.jpg'
@@ -21,7 +21,7 @@ export default function Home() {
                     <img src={fourimg} alt="" />
                 </div>
             </div>
-            <Side_card/>
+            <SideCard/>
             <About/>
         </>
     )

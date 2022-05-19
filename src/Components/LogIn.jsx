@@ -1,8 +1,7 @@
 import React from 'react'
-import Footer from './Footer'
-import Sponsor from './Sponsor'
 import '../css/Responsive.css';
 import '../css/App.css';
+import { Link } from 'react-router-dom';
 
 export default function LogIn() {
     return (
@@ -16,6 +15,7 @@ export default function LogIn() {
                     <label htmlFor="password">Password : </label><br />
                     <input type="password" id="Password" placeholder="Your password" required="true" /><br />
                     <button>Submit</button>
+                    <button ><Link className="sign" to="/SignUp">New Register</Link></button>
                     </form>
             </div>
            </div>

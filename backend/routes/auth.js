@@ -4,15 +4,17 @@ const User = require('../models/User');
 const { body, validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const JWT_DECRET = "mdshoaibakhtar 1234$";
+const JWT_DECRET = "mdshoaibakhtar1234";
+const fetchuser = require('../middleware/fetchuser');
 
-//Create a user, using : POST "/api/auth/createuser". Doesn't require Auth
+//ROUTER 1:  Create a user, using : POST "/api/auth/createuser". Doesn't require Auth
 router.post('/createuser', [
-   body('name', "Please Enter valid name").isLength({ min: 3 }),
+   body('name', "Name should be minimum character").isLength({ min: 3 }),
    body('email', "Please Enter valid name").isEmail(),
-   body('password').isLength({ min: 5 }),
+   body('password',"password be minimum 5 character").isLength({ min: 5 }),
 ], async (req, res) => {
 
+   //Simple Step But Lots Of Problems may Occur
    // const user = User(req.body);
    // user.save();
    // console.log(req.body);
@@ -24,9 +26,8 @@ router.post('/createuser', [
       return res.status(400).json({ errors: errors.array() });
    }
 
-
    try {
-      //checking the typed email, it is unique or not
+      //checking the email, it is unique or not
       let user = await User.findOne({ email: req.body.email });
       if (user) {
          return res.status(400).json({ error: "Try again with unique Email" })
@@ -46,21 +47,21 @@ router.post('/createuser', [
       //using .then
       // .then(user => res.json(user)).catch(err => res.status(400).json({ error: 'sahi dalo yrr' }))
 
-      //need  understanding
+      //saving the authentication token to access the data
       const data = {
          user: {
             id: user.id
          }
       }
       const authtoken = jwt.sign(data, JWT_DECRET);
-      // res.json({ authtoken });
+      res.json({ authtoken });
    } catch (error) {
       console.error(error.message);
       res.status(500).send("kuchh To Baat hai")
    }
 })
 
-//Authenticate a user using :/api/auth/login
+//ROUTER 2: Authenticate a user using :/api/auth/login. No Login Required
 router.post('/login', [
    body('email', "Please Enter valid name").isEmail(),
    body('password', "Please Enter valid password").exists()
@@ -97,5 +98,42 @@ router.post('/login', [
       res.status(500).send("Something went wrong")
    }
 })
+
+//ROUTER 3 : Fteching the user data after log in using post:"api/auth/getuser".login required(getting the information after getting the token)
+router.post('/getuser',fetchuser, async (req, res) => {
+
+   const errors = validationResult(req);
+   if (!(errors.isEmpty())) {
+      return res.status(400).json({ errors: errors.array() });
+   }
+
+
+   try {
+      let userId = req.user.id;
+      const user = await User.findById(userId).select("-password")
+      res.send(user);
+   } catch (error) {
+      console.error(error.message);
+      res.status(500).send("Something went wrong")
+   }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 module.exports = router;

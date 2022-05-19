@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.profile{
+    /* border: 1px solid rgb(0, 0, 0); */
+    padding: 1rem;
+    display: grid;
+
+}
+.mydet{
+    /* border: 1px solid rgb(0, 0, 0); */
+    justify-self: center;
+    padding: 1rem;
+    display: grid;
+    font-size: 1.2rem;
+}
+.proname{
+    font-size: 2rem;
+}
+.head{
+    border: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr 0.5fr;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+}
+.title{
+    grid-column: 2/3;
+}
+.c-details{
+    border: 1px solid rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr 0.5fr;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+.c-title{
+    grid-column: 2/3;
+}
+.c-option a{
+    text-decoration: none;
+    margin: 0 1rem;
+    color: black;
+}

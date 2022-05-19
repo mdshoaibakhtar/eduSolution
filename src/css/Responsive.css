@@ -43,10 +43,10 @@
 }
 
 @media (max-width:830px) {
-    .cards-item-container{
+    .Course-item-container{
         width: 25rem;
     }
-    .cards-item-container img{
+    .Course-item-container img{
         width: 25rem;
         height: 34rem;
     }
@@ -73,7 +73,7 @@
         flex-direction: column;
     }
 
-    .cards-container {
+    .Course-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -213,11 +213,11 @@
 }
 
 @media (max-width:444px) {
-    .cards-item-container {
+    .Course-item-container {
         width: 360px;
     }
 
-    .cards-item-container img {
+    .Course-item-container img {
         width: 350px;
     }
 }
@@ -299,21 +299,21 @@
 }
 
 @media (max-width:394px) {
-    .cards-item-container {
+    .Course-item-container {
         width: 300px;
     }
 
-    .cards-item-container img {
+    .Course-item-container img {
         width: 295px;
     }
 }
 
 @media (max-width:355px) {
-    .cards-item-container {
+    .Course-item-container {
         width: 290px;
     }
 
-    .cards-item-container img {
+    .Course-item-container img {
         width: 285px;
     }
  
@@ -336,11 +336,11 @@
 
 
 @media (max-width:334px) {
-    .cards-item-container {
+    .Course-item-container {
         width: 250px;
     }
 
-    .cards-item-container img {
+    .Course-item-container img {
         width: 255px;
     }
 }
@@ -365,57 +365,57 @@
 
 
 @media (max-width:300px) {
-    .cards-item-container {
+    .Course-item-container {
         background: rgb(165, 116, 116);
         width: 36.5vh;
     }
 
-    .cards-item-container img {
+    .Course-item-container img {
         background: rgb(166, 166, 166);
         width: 36vh;
     }
 }
 @media (max-width:385px) {
-    .cards-item-container {
+    .Course-item-container {
         background: rgb(235, 126, 126);
         width: 35vh;
     }
 
-    .cards-item-container img {
+    .Course-item-container img {
         background: rgb(166, 166, 166);
         width: 35vh;
     }
 }
 @media (max-width:275px) {
-    .cards-item-container {
+    .Course-item-container {
         background: rgb(235, 126, 126);
         width: 33vh;
     }
-    .cards-item-container img {
+    .Course-item-container img {
         background: rgb(166, 166, 166);
         width: 33vh;
     }
 }
 @media (max-width:260px) {
-    .cards-item-container {
+    .Course-item-container {
         background: rgb(255, 57, 57);
         width: 31vh;
         font-size: 1rem;
     }
-    .cards-item-container img {
+    .Course-item-container img {
         background: rgb(166, 166, 166);
         width: 30vh;
         height: 40vh;
     }
 }
 @media (max-width:250px) {
-    .cards-item-container {
+    .Course-item-container {
         background: rgb(255, 57, 57);
         width: 30vh;
         font-size: 1rem;
         margin: 2rem 1px;
     }
-    .cards-item-container img {
+    .Course-item-container img {
         background: rgb(166, 166, 166);
         width: 30vh;
         height: 40vh;
@@ -442,7 +442,7 @@
             width: 10rem;
         }
     
-        .cards-container{
+        .Course-container{
             display: flex;
             flex-direction: column;
         }

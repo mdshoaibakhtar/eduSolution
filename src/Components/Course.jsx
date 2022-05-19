@@ -8,7 +8,7 @@ import About from "./About";
 import '../css/Responsive.css';
 import '../css/App.css';
 
-export default function Cards() {
+export default function Course() {
     return (
         <>
 
@@ -16,7 +16,7 @@ export default function Cards() {
                 <img src={fourimg} alt="" />
                 <img src={twoimg} alt="" />
             </div>
-            <div className="cards-container">
+            <div className="Course-container">
                 <CardsItem image={code} />
                 <CardsItem image={img} />
                 <CardsItem image={code} />

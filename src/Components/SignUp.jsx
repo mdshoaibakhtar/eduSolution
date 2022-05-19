@@ -1,6 +1,4 @@
 import React from 'react'
-import Footer from './Footer'
-import Sponsor from './Sponsor'
 import '../css/Responsive.css';
 import '../css/App.css';
 

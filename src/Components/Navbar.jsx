@@ -1,6 +1,6 @@
 import React from "react";
 // import About from "./About";
-// import Cards from "./Cards";
+// import Course from "./Course";
 // import Contact from "./Contact";
 // import Info from "./Home";
 import { Link } from "react-router-dom";
@@ -38,8 +38,10 @@ export default function Navbar() {
                     <li>
                         <ul><Link to="/"><img className="logo2" src={logo} alt="" ></img></Link></ul>
                         <ul><Link to="/">Home</Link></ul>
-                        <ul><Link to="/Cards">Course</Link></ul>
+                        <ul><Link to="/Course">Course</Link></ul>
                         <ul><Link to="/Contact">Contact</Link></ul>
+                        <ul><Link to="/Test">Test</Link></ul>
+                        <ul><Link to="/Profile">Your Profile</Link></ul>
                     </li>
                 </div>
 
@@ -47,7 +49,7 @@ export default function Navbar() {
                     <input type="text" id="search" placeholder="search" />
                     <button>search</button>
                     <button ><Link to="/LogIn">log in</Link></button>
-                    <button><Link to="/SignUp">sign up</Link></button>
+                    {/* <button><Link to="/SignUp">sign up</Link></button> */}
                 </div>
             </div>
         </>

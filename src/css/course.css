@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.c-detail{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr 0.5fr;
+    /* border: 1px solid green; */
+    padding: 0.5rem;
+    background: rgb(202, 202, 202);
+}
+.c-detail-learn{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    /* border: 1px solid green; */
+    padding: 0.5rem;
+}
+.c-img{
+    width: 100%;
+    grid-column: 2/3;
+    /* border: 1px solid red; */
+}
+.c-info{
+    /* border: 1px solid red; */
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.c-info p{
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+}
+.price{
+    /* border: 1px solid black; */
+    display: flex;
+}
+.price p{
+    padding-right: 20px;
+    font-size: 1.5rem;
+    color: rgb(229, 61, 61);
+}
+.btn{
+    display: grid;
+}
+.btn button{
+    margin: 0.5rem 0rem ;
+    height: 2rem;
+}
+.btn button:hover{
+    background: rgb(116, 116, 116);
+    color: white;
+    cursor: pointer;
+}
+.include li{
+    margin: 0.3rem 1rem;
+}
+.learn{
+    grid-column: 2/3;
+}
+.learn li{
+    margin: 0.5rem 0;
+}
+.learn li{
+    font-size: 1.5rem;
+}
