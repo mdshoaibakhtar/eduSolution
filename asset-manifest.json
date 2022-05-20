@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/Async-Developers/static/css/main.3ff17a2a.css",
-    "main.js": "/Async-Developers/static/js/main.75395630.js",
+    "main.css": "/Async-Developers/static/css/main.b78ed18d.css",
+    "main.js": "/Async-Developers/static/js/main.954d4ee8.js",
     "static/js/787.60e79a5c.chunk.js": "/Async-Developers/static/js/787.60e79a5c.chunk.js",
     "static/media/www.asyncdevelopers.com.jpg": "/Async-Developers/static/media/www.asyncdevelopers.com.1f068e5f561d9446a86b.jpg",
     "static/media/www.asyncdevelopers.com (1).jpg": "/Async-Developers/static/media/www.asyncdevelopers.com (1).7bcd9e3238024806b2c9.jpg",
-    "static/media/with asyncdevelopers.jpg": "/Async-Developers/static/media/with asyncdevelopers.5317f94fcffeac4f4e5f.jpg",
     "static/media/Async Developers.jpg": "/Async-Developers/static/media/Async Developers.9d103508147ca7755cbe.jpg",
     "static/media/code.jpg": "/Async-Developers/static/media/code.2caf9489694b160fce97.jpg",
     "static/media/async.png": "/Async-Developers/static/media/async.22593751b92dce3bf542.png",
@@ -14,12 +13,12 @@
     "static/media/youi.png": "/Async-Developers/static/media/youi.4ed521b213cf5e84ced1.png",
     "static/media/whatsa.png": "/Async-Developers/static/media/whatsa.98454dc49e1b8c99840d.png",
     "index.html": "/Async-Developers/index.html",
-    "main.3ff17a2a.css.map": "/Async-Developers/static/css/main.3ff17a2a.css.map",
-    "main.75395630.js.map": "/Async-Developers/static/js/main.75395630.js.map",
+    "main.b78ed18d.css.map": "/Async-Developers/static/css/main.b78ed18d.css.map",
+    "main.954d4ee8.js.map": "/Async-Developers/static/js/main.954d4ee8.js.map",
     "787.60e79a5c.chunk.js.map": "/Async-Developers/static/js/787.60e79a5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ff17a2a.css",
-    "static/js/main.75395630.js"
+    "static/css/main.b78ed18d.css",
+    "static/js/main.954d4ee8.js"
   ]
 }
