@@ -14,7 +14,7 @@ export default function About() {
         <>
             <div className="about-container">
                 <div className="about">
-                    <h2 className="c-name">Async Developers - Initiative To Inhance The Education System</h2>
+                    <h2 className="c-name">Async Developers - Initiative To Enhance The Tech Education</h2>
                     <p>Aysnc developers is providing best education in the era of technology. we provide different different type of course's. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati pariatur culpa enim ut repellendus repudiandae nam neque aperiam quam explicabo sint nulla nemo, doloribus ea consectetur laboriosam dolor hic consequuntur? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae est harum, eveniet accusantium omnis illum! Distinctio soluta doloremque, eveniet, id sint illum dolores libero expedita voluptatibus aliquid in tempora dolore?</p>
                     <div className="det">
                         <div className="contactUs">

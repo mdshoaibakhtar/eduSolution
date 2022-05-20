@@ -2,14 +2,15 @@ import React, { useState } from 'react'
 import '../css/Responsive.css';
 import '../css/App.css';
 import Profile from './Profile';
+import { Link } from 'react-router-dom';
 
 export default function SignUp() {
-    const [name, setname] = useState();
-    const [address, setaddress] = useState();
-    const [pin, setpin] = useState();
-    const [state, setstate] = useState();
-    const [mobile, setmobile] = useState();
-    const [mail, setmail] = useState();
+    const [name, setname] = useState("Your Name");
+    const [address, setaddress] = useState("Your Address");
+    const [pin, setpin] = useState("Your Pin");
+    const [state, setstate] = useState("Your State");
+    const [mobile, setmobile] = useState("Your Mobile No");
+    const [mail, setmail] = useState("Your Email");
     let object = {
         name: "",
         address: "",
@@ -64,7 +65,7 @@ export default function SignUp() {
     return (
         <>
             <div className="signUp-container">
-                <h1>Sign Up</h1>
+                <h1>Sign Here</h1>
                 <div className="signUp">
                     <label htmlFor="name">Name : </label><br />
                     <input type="text" id="name" placeholder="Your Name" onChange={handlename} /><br />
@@ -78,7 +79,7 @@ export default function SignUp() {
                     <input type="text" id="mobile" placeholder="Your Mobile No." onChange={handlemobile} /><br />
                     <label htmlFor="mail">Email : </label><br />
                     <input type="text" id="mail" placeholder="Your Email" onChange={handlemail} /><br />
-                    <button onClick={handleClick}><a href="/Profile">Submit</a></button>
+                    <button style={{width:"10rem"}} onClick={handleClick}><Link to="/Profile" style={{textDecoration:"none",color:"white"}}>Submit</Link></button>
                 </div>
             </div>
 

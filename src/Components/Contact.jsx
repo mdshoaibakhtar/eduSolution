@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../css/App.css';
 
 export default function Contact(){
@@ -15,7 +16,7 @@ export default function Contact(){
                     <input type="text" id="mail" placeholder="Your Email" /><br />
                     <label htmlFor="sugg">Query : </label><br />
                     <input type="text" id="mail" placeholder="Your Query" /><br />
-                    <button ><a href="/Profile">Submit</a></button>
+                    <button className="sub" style={{width:"10rem"}}><Link to="/Course" style={{textDecoration:"none",color:"white"}}>Submit</Link></button>
                 </div>
             </div>
         </>

@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from '../img/logo.png'
 import '../css/Navbar.css';
 import '../css/App.css';
 
+const getData = () => {
+    let obj = localStorage.getItem('info');
+
+    if(obj){
+        return JSON.parse(localStorage.getItem('info'));
+    }else{
+        return {};
+    }
+}
+
 export default function Navbar() {
+    const[data,setdata] = useState(getData());
+    const[username,setusername] = useState("Sign Up")
     function run() {
         console.log('Clicked');
         let navcontainer = document.querySelector('.nav-Container');
@@ -30,16 +42,16 @@ export default function Navbar() {
                         <ul><Link to="/">Home</Link></ul>
                         <ul><Link to="/Course">Course</Link></ul>
                         <ul><Link to="/Contact">Contact</Link></ul>
-                        <ul><Link to="/Profile">Your Profile</Link></ul>
+                        <ul><Link to="/Profile">Profile</Link></ul>
                         {/* <ul><Link to="/Test">Test</Link></ul> */}
                     </li>
                 </div>
 
                 <div className="r-list">
                     <input type="text" id="search" placeholder="search" />
-                    <button>search</button>
+                    <button style={{border:"1px solid white"}}>search</button>
                     {/* <button ><Link to="/LogIn">log in</Link></button> */}
-                    <button><Link to="/SignUp">sign up</Link></button>
+                    <button style={{border:"1px solid white"}}><Link to="/SignUp">sign up</Link></button>
                 </div>
             </div>
         </>

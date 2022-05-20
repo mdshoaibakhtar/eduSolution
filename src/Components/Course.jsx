@@ -18,16 +18,16 @@ export default function Course() {
         <>
 
             <div className="images">
-                <img src={fourimg} alt="" />
-                <img src={twoimg} alt="" />
+                <img src="https://i0.wp.com/magtemplates.com/wp-content/uploads/2017/06/Programming-Wallpapers-for-Desktop.png?resize=758%2C426&ssl=1" alt="" />
+                <img src="https://cdn.wallpapersafari.com/84/71/XqRxmj.jpg" alt="" />
             </div>
             <div className="Course-container">
-                <DetailedCourse className="det-left" image={context.c.img} title={context.c.title} desc={context.c.description} instructor={context.c.instructor} duration={context.c.duration} offer={context.c.offer} price={context.c.price} include={context.c.include}/>
-                <DetailedCourse className="det-left" image={context.java.img} title={context.java.title} desc={context.java.description} instructor={context.java.instructor} duration={context.java.duration} offer={context.java.offer} price={context.java.price} include={context.java.include}/>
-                <DetailedCourse className="det-left" image={context.jscript.img} title={context.jscript.title} desc={context.jscript.description} instructor={context.jscript.instructor} duration={context.jscript.duration} offer={context.jscript.offer} price={context.jscript.price} include={context.jscript.include}/>
-                <DetailedCourse className="det-left" image={context.ai.img} title={context.ai.title} desc={context.ai.description} instructor={context.ai.instructor} duration={context.ai.duration} offer={context.ai.offer} price={context.ai.price} include={context.ai.include}/>
-                <DetailedCourse className="det-left" image={context.ml.img} title={context.ml.title} desc={context.ml.description} instructor={context.ml.instructor} duration={context.ml.duration} offer={context.ml.offer} price={context.ml.price} include={context.ml.include}/>
-                <DetailedCourse className="det-left" image={context.datasc.img} title={context.datasc.title} desc={context.datasc.description} instructor={context.datasc.instructor} duration={context.datasc.duration} offer={context.datasc.offer} price={context.datasc.price} include={context.datasc.include}/>
+                <DetailedCourse className="det-left" image={context.c.img} title={context.c.title} desc={context.c.description} instructor={context.c.instructor} duration={context.c.duration} offer={context.c.offer} price={context.c.price} oPrice={context.c.oPrice} include={context.c.include}/>
+                <DetailedCourse className="det-left" image={context.java.img} title={context.java.title} desc={context.java.description} instructor={context.java.instructor} duration={context.java.duration} offer={context.java.offer} price={context.java.price} oPrice={context.java.oPrice} include={context.java.include}/>
+                <DetailedCourse className="det-left" image={context.jscript.img} title={context.jscript.title} desc={context.jscript.description} instructor={context.jscript.instructor} duration={context.jscript.duration} offer={context.jscript.offer}oPrice={context.jscript.oPrice}  price={context.jscript.price} include={context.jscript.include}/>
+                <DetailedCourse className="det-left" image={context.ai.img} title={context.ai.title} desc={context.ai.description} instructor={context.ai.instructor} duration={context.ai.duration} offer={context.ai.offer} price={context.ai.price} oPrice={context.ai.oPrice} include={context.ai.include}/>
+                <DetailedCourse className="det-left" image={context.ml.img} title={context.ml.title} desc={context.ml.description} instructor={context.ml.instructor} duration={context.ml.duration} offer={context.ml.offer} price={context.ml.price}oPrice={context.ml.oPrice}  include={context.ml.include}/>
+                <DetailedCourse className="det-left" image={context.datasc.img} title={context.datasc.title} desc={context.datasc.description} instructor={context.datasc.instructor} duration={context.datasc.duration} offer={context.datasc.offer} oPrice={context.datasc.oPrice} price={context.datasc.price} include={context.datasc.include}/>
             </div>
             <About />
         </>

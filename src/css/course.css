@@ -1,118 +1,140 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.c-detail{
+
+.c-detail {
     display: grid;
     grid-template-columns: 0.1fr 2fr 0.1fr 2fr 0.1fr;
     /* border: 1px solid green; */
     padding: 0.5rem;
     /* background: rgb(202, 202, 202); */
 }
-.buy{
+
+.buy {
     /* background: rgb(226, 226, 226); */
     color: white;
     /* border: 3px solid red; */
     display: grid;
     grid-template-columns: 0.5fr 1fr 0.2fr 1fr 0.5fr;
 }
-.detailed{
-    /* border: 2px solid yellow; */
-    margin: 1rem 0;
-    /* background: rgb(214, 164, 164); */
+
+.detailed {
+    /* border: 1px solid rgb(255, 255, 255); */
+    border-bottom: 1px solid white;
+    margin: 1rem 0.5rem;
+    background: rgb(248, 248, 248);
+    color: white;
 }
 
-.c-img{
+.c-img {
     width: 40rem;
     grid-column: 2/3;
     /* border: 1px solid red; */
 }
-.c-info{
+
+.c-info {
     /* border: 1px solid rgb(153, 106, 106); */
     display: grid;
     grid-column: 4/5;
     justify-content: center;
-    padding: 0.4rem 0.5rem ;
+    padding: 0.4rem 0.5rem;
 }
-h2{
+
+h2 {
     /* color: rgb(0, 115, 255); */
     margin: 1rem 0;
 }
-.c-info p{
+
+.c-info p {
     font-size: 1.4rem;
 }
-.price{
+
+.price {
     /* border: 3px solid rgb(255, 179, 0); */
-    grid-column:2/3;
+    grid-column: 2/3;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
 }
-.price p{
+
+.price p {
     padding-right: 20px;
     font-size: 1.5rem;
     color: rgb(229, 61, 61);
 }
-.price button{
+
+.price button {
     display: grid;
     width: 15rem;
     height: 2rem;
     font-size: 1.1rem;
     margin: 0.5rem 0;
+    border: 1px solid white;
+    color: white;
+    padding-top: 0.4rem;
 }
 
-.price button:hover{
+.price button:hover {
     background: rgb(116, 116, 116);
     color: white;
     cursor: pointer;
 }
-.include{
+
+.include {
     /* border: 3px solid greenyellow; */
     grid-column: 4/5;
 }
-.include ul{
-    margin: 0.8rem ;
+
+.include ul {
+    margin: 0.8rem;
     padding-left: 2rem;
     /* border: 1px solid red; */
 }
-.include li{
+
+.include li {
     margin: 0.3rem 1rem;
     font-size: 1.3em;
     color: rgb(97, 131, 33);
 }
 
-@media (max-width:1200px){
-    .c-detail{
+@media (max-width:1200px) {
+    .c-detail {
         display: flex;
         flex-direction: column;
     }
-    .buy{
+
+    .buy {
         display: flex;
         flex-direction: column;
     }
-    .price p{
+
+    .price p {
         font-size: 2.5rem;
     }
-    .include{
+
+    .include {
         display: grid;
     }
-    .c-detail img{
+
+    .c-detail img {
         width: 100%;
         grid-column: 2/3;
         /* border: 1px solid rgb(0, 0, 0); */
         margin: 0.5rem auto;
     }
-    .price button{
+
+    .price button {
         margin: 0.5rem auto;
         width: 20rem;
-        height: 3rem;
+        height: 2rem;
         font-size: 1.5rem;
     }
 }
 
-@media (max-width:820px){
-    .buy{
+@media (max-width:820px) {
+    .buy {
         /* background: rgb(226, 226, 226); */
         color: white;
         display: flex;
@@ -120,35 +142,46 @@ h2{
         /* grid-template-columns: 0.2fr 1fr 0.2fr 1fr 0.2fr; */
     }
 }
-@media (max-width:720px){
-    .buy{
+
+@media (max-width:720px) {
+    .buy {
         display: flex;
         flex-direction: column;
     }
-    .price{
+
+    .price {
         margin: 0.5rem 0;
         display: grid;
         justify-content: center;
     }
-    .price p{
+
+    .price p {
         padding-right: 10px;
         font-size: 1.3rem;
         color: rgb(229, 61, 61);
     }
-    .include{
+
+    .include {
         font-size: 1rem;
         /* border: 1px solid red; */
         display: grid;
         justify-content: center;
     }
-    .include h1{
+
+    .include h1 {
         font-size: 1.2rem;
     }
-    .include li{
+
+    .include li {
         font-size: 1.2rem;
     }
 }
 
-
-
-
+.offer{
+    margin: 0.3rem 0rem;
+    background: rgb(201, 201, 201);
+}
+.oprice{
+    background: rgb(188, 188, 188);
+    text-decoration-line:line-through;
+}

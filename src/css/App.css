@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  background: #000;
 }
 
 .container {
@@ -15,6 +16,7 @@
 
 .Home-container {
   display: grid;
+  background: #000;
 }
 
 .Home-container img {
@@ -177,6 +179,7 @@
 
 .sponsor {
   display: flex;
+  color: white;
   /* border: 3px solid firebrick; */
 }
 
@@ -184,13 +187,14 @@
   height: 8rem;
   margin: 10px auto;
   justify-self: center;
+  background: rgb(255, 255, 255);
 }
 
 
 .about-container {
   /* border: 3px solid olivedrab; */
   background: rgb(203, 203, 203);
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   /* padding-bottom: 20px; */
 }
 
@@ -208,13 +212,14 @@
   background: rgb(255, 255, 255);
   text-align: center;
   font-size: 1.1rem;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background: #000;
 }
 
 .foot a {
   text-decoration: none;
   margin: 2px 15px;
-  color: rgb(0, 64, 106);
+  color: rgb(255, 255, 255);
 }
 
 .left {
@@ -222,18 +227,21 @@
   display: flex;
   flex-direction: row;
   margin: 5rem 10rem;
+  background: #000;
 }
 
 .left img {
   /* border: 2px solid rgb(0, 255, 145); */
   width: 400px;
   margin: 10px 6px;
+  color: white;
 }
 
 .left p {
   /* border: 2px solid rgb(25, 50, 0); */
   font-size: 1.5rem;
   margin: auto 2rem;
+  color: white;
 }
 
 .right {
@@ -253,6 +261,7 @@
   /* border: 2px solid rgb(25, 50, 0); */
   font-size: 1.5rem;
   margin: auto 2rem;
+  color: white;
 }
 
 /* .our-det{
@@ -263,7 +272,7 @@
   color: #172941;
 } */
 h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding-top: 1rem;
 }
 
@@ -318,7 +327,7 @@ h1 {
 } */
 
 .signUp-container {
-  background: rgb(229, 229, 229);
+  background: rgb(0, 0, 0);
   height: 1000px;
 }
 
@@ -342,16 +351,17 @@ h1 {
   padding: 4px 6px;
   font-size: 1.3rem;
   background: none;
+  border: 1px solid white;
 }
 
 .signUp button {
-  color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
   background: none;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
   font-size: 1.4rem;
   width: 15vh;
   cursor: pointer;
-
   margin-top: 15px;
 }
 
@@ -378,13 +388,13 @@ h1 {
   width: 3vh;
   margin: 5px;
   margin-top: -1px;
-  /* background: white; */
+  background: white;
   /* color: white; */
 }
 
 .sign{
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .det-left{

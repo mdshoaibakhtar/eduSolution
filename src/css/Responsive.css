@@ -86,11 +86,11 @@
         justify-content: center;
     }
 
-    .l-list li ul a {
+    /* .l-list li ul a {
         display: flex;
         flex-direction: row;
         color: #000;
-    }
+    } */
 
     .r-list {
         display: flex;
