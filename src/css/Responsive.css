@@ -1,7 +1,8 @@
 
-
 @media (max-width:1111px) {
     .left {
+        display: flex;
+        flex-direction: column;
         /* border: 3px solid rebeccapurple; */
         margin: 2rem 5rem;
     }
@@ -15,12 +16,14 @@
 
     .left img {
         /* border: 1px solid rebeccapurple; */
+        width: 80%;
         margin: auto auto;
     }
 
     .right {
         /* border: 1px solid rebeccapurple; */
-        margin: 2rem 5rem;
+        margin: 2rem 5rem;display: flex;
+        flex-direction: column;
     }
 
     .right p {
@@ -32,7 +35,11 @@
 
     .right img {
         /* border: 1px solid rebeccapurple; */
-        margin: auto auto;
+        margin: auto auto; width: 80%;
+    }
+    .contact-container input {
+        background: rgb(229, 229, 229);
+        width: 200px;
     }
 }
 
@@ -96,7 +103,7 @@
 
     .contact-container input {
         background: rgb(229, 229, 229);
-        width: 600px;
+        width: 100px;
     }
 
     .form #suggestion {
@@ -275,7 +282,7 @@
     }
 
     .right {
-        /* border: 1px solid rgb(0, 0, 0); */
+        /* border: 1px solid rcolgb(0, 0, 0); */
         margin: 2rem 2.5rem;
     }
 }

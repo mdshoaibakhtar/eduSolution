@@ -4,6 +4,11 @@
 
 }
 
+h1{
+    text-align:center;
+    text-decoration-line: underline;
+}
+
 .profile{
     /* border: 1px solid rgb(0, 0, 0); */
     padding: 1rem;
@@ -16,6 +21,10 @@
     padding: 1rem;
     display: grid;
     font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.mail{
+    text-transform: lowercase;
 }
 .proname{
     font-size: 2rem;
@@ -51,4 +60,44 @@
     text-decoration: none;
     margin: 0 1rem;
     color: black;
+}
+
+.save-btn{
+    margin: 0.5rem 0;
+    border: 1px solid black;
+    background: none;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.save-btn:hover{
+    background: rgb(182, 182, 182);
+}
+
+@media (max-width:1200px) {
+    .mydet{
+        justify-self: normal;
+    }
+    .head{
+        border: 1px solid rgb(0, 0, 0);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        display: grid;
+        grid-template-columns: 0.1fr 1fr 1fr 1fr 1fr 0.1fr;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+    }
+    .c-details{
+        border: 1px solid rgb(0, 0, 0);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        display: grid;
+        grid-template-columns: 0.1fr 1fr 1fr 1fr 1fr 0.1fr;
+        font-size: 0.8rem;
+        padding: 0.5rem 0;
+        margin: 0.1rem 0;
+    }
 }

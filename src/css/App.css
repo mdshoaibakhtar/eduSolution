@@ -34,7 +34,7 @@
 
 .overview p {
   font-size: 1.4rem;
-  border: 2px solid rgb(0, 0, 0);
+  /* border: 2px solid rgb(0, 0, 0); */
 }
 
 
@@ -46,23 +46,23 @@
 
 .Course-container {
   /* background: rgb(146, 141, 141); */
-  background: rgb(0, 82, 93);
+  /* background: rgb(0, 82, 93);
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 4vh 1vh;
   margin-top: -10px;
   justify-content: center;
-  justify-self: center;
+  justify-self: center; */
   /* border: 5px solid greenyellow; */
 }
 
 .Course-item-container {
-  border: 3px solid rgb(48, 130, 95);
+  /* border: 3px solid rgb(48, 130, 95); */
   margin: 30px 15px;
   justify-self: center;
   width: 60vh;
   border-top-left-radius: 25px;
-  color: white;
+  /* color: white; */
   padding: 10px;
   font-size: 1.3rem;
   cursor: grab;
@@ -86,7 +86,7 @@
   width: 100%;
   height: 5vh;
   font-size: 1.5rem;
-  border-radius: 15px 0px;
+  /* border-radius: 15px 0px; */
   cursor: pointer;
 }
 
@@ -96,7 +96,7 @@
 
 .contact-container {
   background: rgb(229, 229, 229);
-  height: 100rem;
+  /* height: 100rem; */
 }
 
 /* .contact-container::before {
@@ -132,6 +132,11 @@
   justify-content: center;
   /* text-align: center; */
 }
+.signUp{
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+}
 
 .form #suggestion {
   height: 15vh;
@@ -159,14 +164,14 @@
   height: 5vh;
   cursor: pointer;
   background: none;
-  border-color: rgb(83, 43, 43);
-  color: rgb(0, 0, 0);
+  /* border-color: rgb(83, 43, 43); */
+  /* color: rgb(0, 0, 0); */
   font-size: 1.1rem;
 }
 
 .sponsor-container {
-  background: rgb(203, 203, 203);
-  color: white;
+  /* background: rgb(203, 203, 203); */
+  /* color: white; */
 
 }
 
@@ -176,7 +181,7 @@
 }
 
 .sponsor-container img {
-  height: 20vh;
+  height: 8rem;
   margin: 10px auto;
   justify-self: center;
 }
@@ -380,4 +385,9 @@ h1 {
 .sign{
   text-decoration: none;
   color: black;
+}
+
+.det-left{
+  display: flex;
+  flex-direction: row-reverse;
 }
