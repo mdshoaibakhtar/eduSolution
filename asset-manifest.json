@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.85c99905.css",
-    "main.js": "/react-gh-pages/static/js/main.9161a44e.js",
-    "static/js/787.60e79a5c.chunk.js": "/react-gh-pages/static/js/787.60e79a5c.chunk.js",
-    "static/media/Fauget.gif": "/react-gh-pages/static/media/Fauget.61943ef4f3680677f1df.gif",
-    "static/media/www.asyncdevelopers.com.jpg": "/react-gh-pages/static/media/www.asyncdevelopers.com.1f068e5f561d9446a86b.jpg",
-    "static/media/www.asyncdevelopers.com (1).jpg": "/react-gh-pages/static/media/www.asyncdevelopers.com (1).7bcd9e3238024806b2c9.jpg",
-    "static/media/Async Developers.jpg": "/react-gh-pages/static/media/Async Developers.9d103508147ca7755cbe.jpg",
-    "static/media/code.jpg": "/react-gh-pages/static/media/code.2caf9489694b160fce97.jpg",
-    "static/media/async.png": "/react-gh-pages/static/media/async.22593751b92dce3bf542.png",
-    "static/media/logo.png": "/react-gh-pages/static/media/logo.f8ca425819db845314d5.png",
-    "static/media/iphonelogo.png": "/react-gh-pages/static/media/iphonelogo.09d3be1597511d536f25.png",
-    "static/media/youi.png": "/react-gh-pages/static/media/youi.4ed521b213cf5e84ced1.png",
-    "static/media/whatsa.png": "/react-gh-pages/static/media/whatsa.98454dc49e1b8c99840d.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.85c99905.css.map": "/react-gh-pages/static/css/main.85c99905.css.map",
-    "main.9161a44e.js.map": "/react-gh-pages/static/js/main.9161a44e.js.map",
-    "787.60e79a5c.chunk.js.map": "/react-gh-pages/static/js/787.60e79a5c.chunk.js.map"
+    "main.css": "/Async-Developers/static/css/main.85c99905.css",
+    "main.js": "/Async-Developers/static/js/main.b2f81a03.js",
+    "static/js/787.60e79a5c.chunk.js": "/Async-Developers/static/js/787.60e79a5c.chunk.js",
+    "static/media/Fauget.gif": "/Async-Developers/static/media/Fauget.61943ef4f3680677f1df.gif",
+    "static/media/www.asyncdevelopers.com.jpg": "/Async-Developers/static/media/www.asyncdevelopers.com.1f068e5f561d9446a86b.jpg",
+    "static/media/www.asyncdevelopers.com (1).jpg": "/Async-Developers/static/media/www.asyncdevelopers.com (1).7bcd9e3238024806b2c9.jpg",
+    "static/media/Async Developers.jpg": "/Async-Developers/static/media/Async Developers.9d103508147ca7755cbe.jpg",
+    "static/media/code.jpg": "/Async-Developers/static/media/code.2caf9489694b160fce97.jpg",
+    "static/media/async.png": "/Async-Developers/static/media/async.22593751b92dce3bf542.png",
+    "static/media/logo.png": "/Async-Developers/static/media/logo.f8ca425819db845314d5.png",
+    "static/media/iphonelogo.png": "/Async-Developers/static/media/iphonelogo.09d3be1597511d536f25.png",
+    "static/media/youi.png": "/Async-Developers/static/media/youi.4ed521b213cf5e84ced1.png",
+    "static/media/whatsa.png": "/Async-Developers/static/media/whatsa.98454dc49e1b8c99840d.png",
+    "index.html": "/Async-Developers/index.html",
+    "main.85c99905.css.map": "/Async-Developers/static/css/main.85c99905.css.map",
+    "main.b2f81a03.js.map": "/Async-Developers/static/js/main.b2f81a03.js.map",
+    "787.60e79a5c.chunk.js.map": "/Async-Developers/static/js/787.60e79a5c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85c99905.css",
-    "static/js/main.9161a44e.js"
+    "static/js/main.b2f81a03.js"
   ]
 }
