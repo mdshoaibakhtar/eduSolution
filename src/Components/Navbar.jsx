@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import logo from '../img/logo.png'
 import '../css/Navbar.css';
 import '../css/App.css';
@@ -15,13 +15,24 @@ const getData = () => {
 }
 
 export default function Navbar() {
+    let navigate = useNavigate();
     const[data,setdata] = useState(getData());
     const[username,setusername] = useState("Sign Up")
     function run() {
         console.log('Clicked');
         let navcontainer = document.querySelector('.nav-Container');
         navcontainer.classList.toggle('hide');
-      
+        let list = document.querySelector('.anchor');
+        list.classList.toggle('none');
+    }
+    // function dinone() {
+    //     let list = document.querySelector('.anchor');
+    //     list.classList.toggle('none');
+    // }
+
+    const handleLogout =()=>{
+        localStorage.removeItem('info');
+        navigate('/SignUp')
     }
     return (
         <>
@@ -38,20 +49,23 @@ export default function Navbar() {
             <div className="nav-Container">
                 <div className="l-list">
                     <li>
-                        <ul><Link to="/"><img className="logo2" src={logo} alt="" ></img></Link></ul>
-                        <ul><Link to="/">Home</Link></ul>
-                        <ul><Link to="/Course">Course</Link></ul>
-                        <ul><Link to="/Contact">Contact</Link></ul>
-                        <ul><Link to="/Profile">Profile</Link></ul>
+                        <ul className="awsmlogo"><i class="fa-solid fa-2x fa-file-code"></i></ul>
+                        <ul><Link className="anchor" to="/">Home</Link></ul>
+                        <ul><Link className="anchor" to="/Course">Course</Link></ul>
+                        <ul><Link className="anchor" to="/Contact">Contact</Link></ul>
+                        <ul><Link className="anchor" to="/Profile">Profile</Link></ul>
                         {/* <ul><Link to="/Test">Test</Link></ul> */}
                     </li>
                 </div>
 
                 <div className="r-list">
-                    <input type="text" id="search" placeholder="search" />
-                    <button style={{border:"1px solid white"}}>search</button>
-                    {/* <button ><Link to="/LogIn">log in</Link></button> */}
-                    <button style={{border:"1px solid white"}}><Link to="/SignUp">sign up</Link></button>
+                    
+                </div>
+                <div className="r-list">
+                    {!localStorage.getItem('info') ? <div className="logout">
+                        <button className="anchor"><Link to="/SignUp">Sign up</Link></button>
+                    </div> : <button className="anchor" onClick={handleLogout}>Log Out</button>}
+                    {/* <button onClick={handleMode}>Dark Mode</button> */}
                 </div>
             </div>
         </>

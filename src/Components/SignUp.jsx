@@ -5,12 +5,12 @@ import Profile from './Profile';
 import { Link } from 'react-router-dom';
 
 export default function SignUp() {
-    const [name, setname] = useState("Your Name");
-    const [address, setaddress] = useState("Your Address");
-    const [pin, setpin] = useState("Your Pin");
-    const [state, setstate] = useState("Your State");
-    const [mobile, setmobile] = useState("Your Mobile No");
-    const [mail, setmail] = useState("Your Email");
+    const [name, setname] = useState();
+    const [address, setaddress] = useState();
+    const [pin, setpin] = useState();
+    const [state, setstate] = useState();
+    const [mobile, setmobile] = useState();
+    const [mail, setmail] = useState();
     let object = {
         name: "",
         address: "",

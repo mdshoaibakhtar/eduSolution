@@ -4,7 +4,9 @@ import img from '../img/async.png';
 import code from '../img/code.jpg';
 import twoimg from '../img/www.asyncdevelopers.com.jpg'
 import fourimg from '../img/www.asyncdevelopers.com (1).jpg'
+import gif from '../img/Fauget.gif'
 import About from "./About";
+import oneimg from '../img/Async Developers.jpg'
 import '../css/Responsive.css';
 import '../css/App.css';
 import React, { useContext} from 'react'
@@ -18,8 +20,8 @@ export default function Course() {
         <>
 
             <div className="images">
-                <img src="https://i0.wp.com/magtemplates.com/wp-content/uploads/2017/06/Programming-Wallpapers-for-Desktop.png?resize=758%2C426&ssl=1" alt="" />
-                <img src="https://cdn.wallpapersafari.com/84/71/XqRxmj.jpg" alt="" />
+            <img src={oneimg} alt="" />
+                {/* <img src="https://cdn.wallpapersafari.com/84/71/XqRxmj.jpg" alt="" /> */}
             </div>
             <div className="Course-container">
                 <DetailedCourse className="det-left" image={context.c.img} title={context.c.title} desc={context.c.description} instructor={context.c.instructor} duration={context.c.duration} offer={context.c.offer} price={context.c.price} oPrice={context.c.oPrice} include={context.c.include}/>

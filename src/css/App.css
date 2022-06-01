@@ -2,11 +2,10 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  background: #000;
 }
 
 .container {
-  /* border: 10px solid purple; */
+  border: 10px solid purple;
   display: grid;
   /* background: rgb(235, 154, 255); */
   /* margin: 2vh; */
@@ -16,7 +15,7 @@
 
 .Home-container {
   display: grid;
-  background: #000;
+  /* background: #000; */
 }
 
 .Home-container img {
@@ -71,7 +70,7 @@
   justify-content: center;
   justify-self: center;
   box-shadow: 10px 10px 10px rgb(4, 77, 54);
-  background: #000;
+  background: rgb(112, 112, 112);
   /* grid-column: 1/2; */
 }
 
@@ -187,14 +186,14 @@
   height: 8rem;
   margin: 10px auto;
   justify-self: center;
-  background: rgb(255, 255, 255);
+  /* background: rgb(115, 115, 115); */
 }
 
 
 .about-container {
   /* border: 3px solid olivedrab; */
-  background: rgb(203, 203, 203);
-  color: rgb(255, 255, 255);
+  /* background: rgb(238, 238, 238); */
+  /* color: rgb(0, 0, 0); */
   /* padding-bottom: 20px; */
 }
 
@@ -209,11 +208,10 @@
   /* border: 3px solid red; */
   /* height: 10vh; */
   padding: 10px 10px;
-  background: rgb(255, 255, 255);
+  background: rgb(127, 127, 127);
   text-align: center;
   font-size: 1.1rem;
   color: rgb(255, 255, 255);
-  background: #000;
 }
 
 .foot a {
@@ -227,21 +225,21 @@
   display: flex;
   flex-direction: row;
   margin: 5rem 10rem;
-  background: #000;
+  /* background: rgb(135, 135, 135); */
 }
 
 .left img {
   /* border: 2px solid rgb(0, 255, 145); */
   width: 400px;
   margin: 10px 6px;
-  color: white;
+  /* color: white; */
 }
 
 .left p {
   /* border: 2px solid rgb(25, 50, 0); */
   font-size: 1.5rem;
   margin: auto 2rem;
-  color: white;
+  color: black;
 }
 
 .right {
@@ -249,6 +247,7 @@
   flex-direction: row-reverse;
   display: flex;
   margin: 5rem 10rem;
+  /* background: rgb(143, 143, 143); */
 }
 
 .right img {
@@ -261,7 +260,7 @@
   /* border: 2px solid rgb(25, 50, 0); */
   font-size: 1.5rem;
   margin: auto 2rem;
-  color: white;
+  color: black;
 }
 
 /* .our-det{
@@ -272,7 +271,7 @@
   color: #172941;
 } */
 h1 {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding-top: 1rem;
 }
 
@@ -327,7 +326,7 @@ h1 {
 } */
 
 .signUp-container {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   height: 1000px;
 }
 
@@ -351,13 +350,14 @@ h1 {
   padding: 4px 6px;
   font-size: 1.3rem;
   background: none;
-  border: 1px solid white;
+  border: none;
+  border-bottom: 1px solid red;
 }
 
 .signUp button {
   text-decoration: none;
-  color: rgb(255, 255, 255);
-  background: none;
+  color: rgb(0, 0, 0);
+  background: black;
   border: 1px solid rgb(255, 255, 255);
   font-size: 1.4rem;
   width: 15vh;
@@ -373,6 +373,7 @@ h1 {
   display: grid;
   grid-template-columns: 3fr 3fr;
   margin: 3rem 0px;
+  color: black;
 }
 
 .links a {
@@ -380,7 +381,7 @@ h1 {
   display: flex;
   justify-content: center;
   margin: 5px 30px;
-  color: white;
+  color: rgb(0, 0, 0);
 
 }
 
@@ -394,7 +395,7 @@ h1 {
 
 .sign{
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .det-left{

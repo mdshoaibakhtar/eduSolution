@@ -11,16 +11,18 @@
 .logo {
     width: 3rem;
     margin: 0rem 1.1rem;
-    background: rgb(84, 84, 84);
+    /* background: rgb(84, 84, 84); */
 }
 
 .nav-Container {
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 1rem 2fr 2fr;
     height: 3rem;
     padding: 0.5rem 0;
-    color: white;
+    color: black;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 .nav-Container li {
@@ -32,13 +34,13 @@
 .nav-Container li ul {
     justify-self: start;
     margin-top: 0.2rem;
-    color: white;
+    color: black;
 }
 
 .nav-Container li a {
     font-size: 1.5rem;
     text-decoration: none;
-    color: #ffffff;
+    color: black;
 }
 
 .nav-Container li a:hover {
@@ -75,11 +77,14 @@
 }
 
 .r-list button {
-    background: none;
+    background: black;
     color: #ffffff;
     font-size: 1.03rem;
     width: 5rem;
+    height: 3rem;
     margin: 0rem 0.3rem;
+    position: relative;
+    top: -2.5rem;
     cursor: pointer;
     border: 1xp solid rgb(252, 16, 16);
 }
@@ -107,7 +112,7 @@
     height: 4px;
     width: 45px;
     margin: 2px auto;
-    background: rgb(255, 255, 255);
+    background: rgb(109, 110, 0);
 }
 
 @media(max-width:1100px) {
@@ -121,8 +126,9 @@
 
     .r-list button {
         width: 4rem;
-        margin: 0rem 0.2rem;
-        border: 1px solid white;
+        margin: 0rem 0.8rem;
+        /* border: 1px solid white; */
+        /* background: rgb(160, 160, 160); */
 
     }
 
@@ -133,7 +139,7 @@
 }
 
 @media(max-width:830px) {
-    .logo2 {
+    .awsmlogo {
         display: none;
     }
 
@@ -144,7 +150,7 @@
         /* border: 1px solid red; */
         font-size: 1.6rem;
         display: grid;
-        background: #000;
+        /* background: #000; */
         grid-template-columns: 5rem 2fr 2fr 1rem;
         box-shadow: 8px 8px 8px rgb(174, 170, 170);
         /* margin-bottom: -8px; */
@@ -154,7 +160,7 @@
     .navhead p {
         grid-column: 2/3;
         margin-top: 0.5rem;
-        color: #ffffff;
+        /* color: #ffffff; */
     }
 
     .nav-Container {
@@ -191,6 +197,10 @@
         margin: 0.3rem 1rem;
         color: white;
     }
+    .none{
+        display: none;
+        cursor: disabled;
+    }
 
     .r-list {
         /* border: 3px solid rgb(0, 132, 59); */
@@ -198,9 +208,10 @@
     }
 
     .r-list button {
-        width: 15.8rem;
+        width: 6.8rem;
         margin: 0.2rem 0.2rem;
         height: 2rem;
+        top: 0;
     }
 
     .r-list input {

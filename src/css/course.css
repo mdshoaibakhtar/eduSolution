@@ -42,12 +42,13 @@
 }
 
 h2 {
-    /* color: rgb(0, 115, 255); */
+    color: rgb(0, 0, 0);
     margin: 1rem 0;
 }
 
 .c-info p {
     font-size: 1.4rem;
+    color: black;
 }
 
 .price {
@@ -74,6 +75,7 @@ h2 {
     border: 1px solid white;
     color: white;
     padding-top: 0.4rem;
+    background: #000;
 }
 
 .price button:hover {
@@ -96,7 +98,7 @@ h2 {
 .include li {
     margin: 0.3rem 1rem;
     font-size: 1.3em;
-    color: rgb(97, 131, 33);
+    color: rgb(0, 0, 0);
 }
 
 @media (max-width:1200px) {
