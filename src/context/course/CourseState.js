@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import courseContext from './courseContext'
 
 const CourseState = (props) => {

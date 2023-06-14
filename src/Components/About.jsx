@@ -24,11 +24,11 @@ export default function About() {
                             <p>Address : 124 Developers Chowk, Noida</p>
                         </div>
                         <div className="links">
-                            <a href="#"><img src={png} alt="loading..." />aysncdevelopers</a>
-                            <a href="#"><img src={png1} alt="loading..." />aysncdevelopers</a>
-                            <a href="#"><img src={png3} alt="loading..." />aysncdevelopers</a>
-                            <a href="#"><img src={png5} alt="loading..." />aysncdevelopers</a>
-                            <a href="#"><img src={png2} alt="loading..." />aysncdevelopers</a>
+                            <a href="abc"><img src={png} alt="loading..." />aysncdevelopers</a>
+                            <a href="abc"><img src={png1} alt="loading..." />aysncdevelopers</a>
+                            <a href="abc"><img src={png3} alt="loading..." />aysncdevelopers</a>
+                            <a href="abc"><img src={png5} alt="loading..." />aysncdevelopers</a>
+                            <a href="abc"><img src={png2} alt="loading..." />aysncdevelopers</a>
                         </div>
                     </div>
                 </div>

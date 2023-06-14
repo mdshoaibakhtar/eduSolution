@@ -1,5 +1,4 @@
 import React from 'react'
-import code from '../img/code.jpg';
 import '../css/Responsive.css';
 import '../css/App.css';
 

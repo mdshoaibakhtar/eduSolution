@@ -13,7 +13,6 @@ import {
   Routes
 } from "react-router-dom";
 import CourseState from './context/course/CourseState';
-import Test from './Components/Test';
 import Profile from './Components/Profile';
 import DetailedCourse from './Components/DetailedCourse';
 import Form from './Components/Form';
@@ -33,7 +32,6 @@ function App() {
             <Route exact path='/SignUp' element={<SignUp />} />
             <Route exact path='/Profile' element={<Profile />} />
             <Route exact path='/DetailedCourse' element={<DetailedCourse />} />
-            <Route exact path='/Test' element={<Test />} />
             <Route exact path='/Form' element={<Form />} />
           </Routes>
         </Router>
