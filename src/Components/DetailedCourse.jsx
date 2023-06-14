@@ -1,7 +1,5 @@
-import code from '../img/code.jpg';
 import '../css/course.css'
-import React, { useContext, useState } from 'react'
-import courseContext from '../context/course/courseContext';
+import React, {  useState } from 'react'
 
 const getcourseData = () => {
     let cobj = localStorage.getItem('course');
@@ -13,9 +11,7 @@ const getcourseData = () => {
 }
 
 const DetailedCourse = (props) => {
-    const context = useContext(courseContext);
-    const { title, description, instructor, duration, price } = context;
-    const[content,setcontent] = useState(getcourseData());
+    const[content] = useState(getcourseData());
     const getDate = () => {
             return new Date().toLocaleString()
         };

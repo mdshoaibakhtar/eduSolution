@@ -1,7 +1,6 @@
 import '../css/Responsive.css';
 import '../css/App.css';
 import React from 'react'
-import DetailedCourse from "./DetailedCourse";
 import { Link } from "react-router-dom";
 
 export default function Cards_Item(props){

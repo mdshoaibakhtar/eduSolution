@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import '../css/Responsive.css';
 import '../css/App.css';
-import Profile from './Profile';
 import { Link } from 'react-router-dom';
 
 export default function SignUp() {
