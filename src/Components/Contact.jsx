@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../css/App.css';
+import Navbar from "./Navbar";
 
 export default function Contact(){
     return(
         <>
+
+        <Navbar/>
         <div className="signUp-container">
                 <h1>Contact us</h1>
                 <div className="signUp">
