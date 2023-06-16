@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../css/profile.css'
+import Navbar from './Navbar';
 
 const getData = () => {
     let obj = localStorage.getItem('info');
@@ -15,6 +16,8 @@ const Profile = () => {
     const[data] = useState(getData());
     return (
         <>
+
+            <Navbar/>
             <div className="profile">
                 <h1>Your Profile</h1>
                 <div className="mydet">

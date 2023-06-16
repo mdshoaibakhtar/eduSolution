@@ -10,8 +10,6 @@ const Form = () => {
     const [fname, setfname] = useState(); 
 
     const handleChange = (e) => {
-        // console.log("Onchange is fired");
-        // console.log(e.target.value);
         setname(e.target.value);
     }
     const handleClick = (e) => {
@@ -25,11 +23,6 @@ const Form = () => {
         textAlign:"centre",
         padding:"2rem"
     }
-
-    // useEffect(()=>{
-    //  localStorage.setItem('keyNote',(fname));
-    // },[fname])
-
     return (
         <>
         <div className="container" style={css}>

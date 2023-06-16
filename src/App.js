@@ -1,5 +1,4 @@
 import './css/App.css';
-import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Course from './Components/Course';
 import Contact from './Components/Contact';
@@ -22,7 +21,6 @@ function App() {
     <>
       <CourseState>
         < Router>
-          <Navbar />
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/Contact' element={<Contact />} />

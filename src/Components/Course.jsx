@@ -6,11 +6,14 @@ import '../css/App.css';
 import React, { useContext} from 'react'
 import courseContext from '../context/course/courseContext';
 import DetailedCourse from "./DetailedCourse";
+import Navbar from "./Navbar";
 
 export default function Course() {
     const context = useContext(courseContext);
     return (
         <>
+
+            <Navbar/>
 
             <div className="images">
             <img src={oneimg} alt="" />
