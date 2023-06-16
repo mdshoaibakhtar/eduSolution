@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/eduSolution/static/css/main.07590612.css",
-    "main.js": "/eduSolution/static/js/main.b48cbeaf.js",
-    "static/js/787.22cef4e5.chunk.js": "/eduSolution/static/js/787.22cef4e5.chunk.js",
-    "static/media/Fauget.gif": "/eduSolution/static/media/Fauget.61943ef4f3680677f1df.gif",
-    "static/media/Async Developers.jpg": "/eduSolution/static/media/Async Developers.9d103508147ca7755cbe.jpg",
-    "static/media/logo.png": "/eduSolution/static/media/logo.f8ca425819db845314d5.png",
-    "static/media/iphonelogo.png": "/eduSolution/static/media/iphonelogo.09d3be1597511d536f25.png",
-    "static/media/youi.png": "/eduSolution/static/media/youi.4ed521b213cf5e84ced1.png",
-    "static/media/whatsa.png": "/eduSolution/static/media/whatsa.98454dc49e1b8c99840d.png",
-    "index.html": "/eduSolution/index.html",
-    "main.07590612.css.map": "/eduSolution/static/css/main.07590612.css.map",
-    "main.b48cbeaf.js.map": "/eduSolution/static/js/main.b48cbeaf.js.map",
-    "787.22cef4e5.chunk.js.map": "/eduSolution/static/js/787.22cef4e5.chunk.js.map"
+    "main.css": "/static/css/main.07590612.css",
+    "main.js": "/static/js/main.4d81459c.js",
+    "static/js/787.22cef4e5.chunk.js": "/static/js/787.22cef4e5.chunk.js",
+    "static/media/Fauget.gif": "/static/media/Fauget.61943ef4f3680677f1df.gif",
+    "static/media/Async Developers.jpg": "/static/media/Async Developers.9d103508147ca7755cbe.jpg",
+    "static/media/logo.png": "/static/media/logo.f8ca425819db845314d5.png",
+    "static/media/iphonelogo.png": "/static/media/iphonelogo.09d3be1597511d536f25.png",
+    "static/media/youi.png": "/static/media/youi.4ed521b213cf5e84ced1.png",
+    "static/media/whatsa.png": "/static/media/whatsa.98454dc49e1b8c99840d.png",
+    "index.html": "/index.html",
+    "main.07590612.css.map": "/static/css/main.07590612.css.map",
+    "main.4d81459c.js.map": "/static/js/main.4d81459c.js.map",
+    "787.22cef4e5.chunk.js.map": "/static/js/787.22cef4e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07590612.css",
-    "static/js/main.b48cbeaf.js"
+    "static/js/main.4d81459c.js"
   ]
 }
