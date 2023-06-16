@@ -25,16 +25,11 @@ const DetailedCourse = (props) => {
 
 
         const addcart = () => {
-            // console.log("Adding to cart");
             document.querySelector('.addcart').innerText = "Added"
-            // console.log(props.title);
-            // console.log(props.instructor);
-            // console.log(getDate());
 
             course.title = props.title;
             course.instructor= props.instructor;
             course.date=getDate();
-            // console.log(course);
             courseArr.push(course);
             localStorage.setItem('course',JSON.stringify(courseArr));
             console.log(content.title);

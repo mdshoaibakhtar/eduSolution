@@ -20,45 +20,30 @@ export default function SignUp() {
     }
 
     const handlename = (e) => {
-        // console.log("Change");
         setname(e.target.value);
-        // console.log(e.target.value);
     }
     const handleaddress = (e) => {
-        // console.log("Change");
         setaddress(e.target.value);
-        // console.log(e.target.value);
     }
     const handlepin = (e) => {
-        // console.log("Change");
         setpin(e.target.value);
-        // console.log(e.target.value);
     }
     const handlestate = (e) => {
-        // console.log("Change");
         setstate(e.target.value);
-        // console.log(e.target.value);
     }
     const handlemobile = (e) => {
-        // console.log("Change");
         setmobile(e.target.value);
-        // console.log(e.target.value);
     }
     const handlemail = (e) => {
-        // console.log("Change");
         setmail(e.target.value);
-        // console.log(e.target.value);
     }
     const handleClick = () => {
-        // console.log("clicked");
-        // console.log(name);
         object.name = name;
         object.address = address;
         object.pin = pin;
         object.state = state;
         object.mobile = mobile;
         object.mail = mail;
-        // console.log(object);
         localStorage.setItem('info', JSON.stringify(object));
     }
     return (

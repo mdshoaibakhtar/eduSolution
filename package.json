@@ -1,5 +1,6 @@
 {
-  "name": "async-developer",
+  "name": "edusolution",
+  "homepage": "https://mdshoaibakhtar.github.io/eduSolution",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

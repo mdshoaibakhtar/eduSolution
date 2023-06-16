@@ -22,7 +22,7 @@ export default function Navbar() {
     return (
         <>
             <div className="navhead">
-                <img className="logo" src={logo} alt="" /><p>Async Developers</p>
+                <img className="logo" src={logo} alt="" /><p>eduSolution</p>
                 <div className="burger" onClick={run}>
                     <div className="line"></div>
                     <div className="line"></div>
